@@ -47,10 +47,10 @@ export const plans = [
     name: "Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 20,
+    credits: 10,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "10 Free Credits",
         isIncluded: true,
       },
       {
@@ -71,8 +71,8 @@ export const plans = [
     _id: 2,
     name: "Pro Package",
     icon: "/assets/icons/free-plan.svg",
-    price: 40,
-    credits: 120,
+    price: 19,
+    credits: 250,
     inclusions: [
       {
         label: "120 Credits",
@@ -96,7 +96,7 @@ export const plans = [
     _id: 3,
     name: "Premium Package",
     icon: "/assets/icons/free-plan.svg",
-    price: 199,
+    price: 169,
     credits: 2000,
     inclusions: [
       {
@@ -113,6 +113,10 @@ export const plans = [
       },
       {
         label: "Priority Updates",
+        isIncluded: true,
+      },
+      {
+        label: "Developers Choice",
         isIncluded: true,
       },
     ],
@@ -137,7 +141,7 @@ export const transformationTypes = {
   fill: {
     type: "fill",
     title: "Generative Fill",
-    subTitle: "Enhance an image's dimensions using AI outpainting",
+    subTitle: "Overlook an image's dimensions using AI outpainting",
     config: { fillBackground: true },
     icon: "stars.svg",
   },
@@ -171,7 +175,7 @@ export const aspectRatioOptions = {
   "3:4": {
     aspectRatio: "3:4",
     label: "Standard Portrait (3:4)",
-    width: 1000,
+    width: 1700,
     height: 1334,
   },
   "9:16": {
