@@ -30,6 +30,11 @@ export const navLinks = [
     icon: "/assets/icons/camera.svg",
   },
   {
+    label: "Beta Version",
+    route: "",
+    icon: "/assets/icons/camera.svg",
+  },  
+  {
     label: "Profile",
     route: "/profile",
     icon: "/assets/icons/profile.svg",
@@ -47,7 +52,7 @@ export const plans = [
     name: "Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 10,
+    credits: 15,
     inclusions: [
       {
         label: "10 Free Credits",
@@ -72,7 +77,7 @@ export const plans = [
     name: "Pro Package",
     icon: "/assets/icons/free-plan.svg",
     price: 19,
-    credits: 250,
+    credits: 120,
     inclusions: [
       {
         label: "120 Credits",
